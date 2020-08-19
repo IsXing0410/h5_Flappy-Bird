@@ -13,6 +13,7 @@
     background-image: url(../images/sky.png);
     position: relative;
     background-position-x: 0;
+    overflow: hidden;
 }
 
 .bird{
@@ -24,7 +25,8 @@
     position: absolute;
     left: 50%;
     top: 260px;
-    transform: translate(-50%,-50%);
+    margin-left: -15px;
+    /* transform: translate(-50%,-50%); */
 
     transition: top .3s linear;
 }
@@ -150,3 +152,21 @@ background-color: #ffac38;
     font-weight: bolder;
     cursor: pointer;
   }
+
+.pipe{
+    width: 52px;     
+    /* background-color: pink; */
+}
+.pipe.pipe-up{
+    position: absolute;
+    top: 0;
+    background-image: url(../images/pipe2.png);
+    background-position-y: bottom; 
+}
+
+.pipe.pipe-down{
+    background-image: url(../images/pipe1.png);
+    position: absolute;
+    bottom: 0;
+    background-position-y: top; 
+}

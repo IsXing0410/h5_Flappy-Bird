@@ -55,56 +55,9 @@
         </div>
 
     </div>
-
+<script src="./utils.js"></script>
 <script src="./index.js"></script>
 
-    <!-- <script>
-        var bgx = 0;
-        var birdx = 0;
-        var flag = false;
-
-        
-        var game = document.getElementById('game');
-        
-        var bird = document.getElementsByClassName("bird")[0];
-        var start = document.getElementsByClassName("start")[0];
-        var score = document.getElementsByClassName("score")[0];
-        
-        setInterval(function(){
-            // 背景移动
-            bgx -= 10;
-            game.style.backgroundPositionX = bgx +'px';
-
-            //小鸟上下、文字缩放
-            if(flag==false){
-                start.classList.add("start-blue");
-                start.classList.remove("start-white");
-                bird.classList.remove("high");
-                flag=true;
-                
-            }else{
-                start.classList.add("start-white");
-                start.classList.remove("start-blue");
-                bird.classList.add("high");
-                flag = false;
-            }
-            
-        },360);
-
-        //小鸟挥动翅膀
-        setInterval(function(){
-            birdx -=30;
-            bird.style.backgroundPositionX = birdx +'px';
-        },220);
-
-
-        //开始游戏
-        start.onclick = function(){
-            console.log('hi');
-            start.classList.add("hidden");
-            score.classList.remove("hidden");
-        }
-
-    </script> -->
+ 
 </body>
 </html>
