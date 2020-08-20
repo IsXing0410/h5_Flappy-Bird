@@ -68,6 +68,7 @@
     font-size: 20px;
     font-weight: bolder;
     color: #fff;
+    z-index: 1;
   }
 
 .mask{
@@ -78,6 +79,7 @@
     right: 0;
     opacity: .7;
     background-color: #000;
+    z-index: 2;
 }
 
 .end {
@@ -87,6 +89,7 @@
     transform: translateX(-50%);
   
     text-align: center;
+    z-index: 2;
   }
 
 .end .over {
@@ -116,6 +119,7 @@ color: red;
     line-height: 30px;
     margin-bottom: 10px;
     font-size: 12px;
+    list-style: none;
 }
 
 .end .rank-item .rank-degree{
